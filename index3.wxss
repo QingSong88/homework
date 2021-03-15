@@ -1,0 +1,38 @@
+.user_Info_wrap{
+  height: 50vh;
+  overflow: hidden;
+  background-color:rgb(224, 51, 51);
+  position: relative;
+}
+.user_image_wrap{
+  position: relative;
+}
+.user_btn{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30%;
+  border:1rpx solid rgb(93, 238, 80);
+  color:  rgb(93, 238, 80);
+  font-size: 34rpx;
+}
+.user_bg{
+  height: 52vh;
+  filter: blur(10rpx);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform:translateX(-50%);
+  top:30%;
+  text-align: center;
+
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: #fff;
+}
